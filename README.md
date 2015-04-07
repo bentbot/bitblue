@@ -1,2 +1,2 @@
-# bitblue
-Bit.Blue - Advanced Bitcoin Management
+# Bit.Blue
+Advanced Bitcoin Management
