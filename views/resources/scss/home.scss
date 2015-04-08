@@ -1,0 +1,26 @@
+html {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	body {
+		height: 100%;
+		width: 100%;
+		font-family: 'Georgia' serif;
+		color: white;
+		margin: 0;
+		overflow: scroll;
+		text-align: center;
+		h1 {
+			font-family: 'Georgia' serif;
+			text-align:	center;
+			margin: 0 0 5px 0;
+		}
+		video {
+			width: 100%;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			z-index: -1;
+		}
+	}	
+}
