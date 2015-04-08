@@ -15,7 +15,7 @@ html {
       text-align: center;
       margin: 0 0 5px 0; }
     html body video {
-      width: 100%;
+      min-height: 100%;
       position: absolute;
       top: 0px;
       left: 0px;

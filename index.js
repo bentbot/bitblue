@@ -14,11 +14,12 @@ swig.setDefaults({ cache: false });
 
 app.use('/video', express.static(__dirname + '/views/resources/video'));
 app.use('/style', express.static(__dirname + '/views/resources/scss'));
+app.use('/fonts', express.static(__dirname + '/views/resources/fonts'));
 app.use('/js', express.static(__dirname + '/views/resources/js'));
 
 	app.get('/', function (req, res) {
 	  	res.render('index', {
-			pagename: 'bit.blue'
+			pagename: 'Bit Blue'
 		});
 	});
 

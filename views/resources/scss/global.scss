@@ -1,0 +1,67 @@
+$font-stack:    Helvetica, sans-serif;
+$nav-background: rgb(35, 68, 89);
+$nav-hover: rgb(35, 68, 89);
+#wrapper {
+	.navbar {
+		background-color: #33607C;
+		.navbar-header {
+			.navbar-brand {
+				color: white;
+				width: 225px;
+				font-size: 25px;
+				font-family: 'Crete Round', serif;
+				-webkit-transition: background-color .33s; /* Safari */
+				transition: background-color .33s;
+				&:hover {background-color: rgb(35, 68, 89);}
+				&.glow {background-color: $nav-background}
+			}
+		}
+		.navbar-right {
+			.dropdown {
+				a { color: white; }
+				.dropdown-toggle:hover {
+					background: $nav-background;
+				}
+				.dropdown-toggle.open a {
+					background: $nav-background;
+				}
+				.dropdown-menu {
+					background: #234459;
+					border-radius: 0;
+				}
+			}
+			
+		}
+		.navbar-collapse {
+			.side-nav {
+				height: 100%;
+				font-family: 'Arial' sans-serif;
+			}
+		}
+	}
+}
+
+.message-dropdown {
+	.message-preview {
+		a {
+			&:hover, &:active, &:visited, &:focus { background: rgb(35, 68, 89); }
+			background: rgb(35, 68, 89);
+			.media {
+				.media-body {
+					.text-muted {
+						color: #CFCFCF;
+					}
+				}
+			}
+		}
+	}
+}
+
+.dropdown-menu {
+	li {
+		&.divider {  border-bottom: 1px solid #1B394C; }
+		a:hover, a:focus {
+			background-color: rgb(72, 116, 144);
+		}
+	}
+}

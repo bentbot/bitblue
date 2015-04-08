@@ -1,0 +1,40 @@
+#wrapper .navbar {
+  background-color: #33607C; }
+  #wrapper .navbar .navbar-header .navbar-brand {
+    color: white;
+    width: 225px;
+    font-size: 25px;
+    font-family: 'Crete Round', serif;
+    -webkit-transition: background-color .33s;
+    /* Safari */
+    transition: background-color .33s; }
+    #wrapper .navbar .navbar-header .navbar-brand:hover {
+      background-color: #234459; }
+    #wrapper .navbar .navbar-header .navbar-brand.glow {
+      background-color: #234459; }
+  #wrapper .navbar .navbar-right .dropdown a {
+    color: white; }
+  #wrapper .navbar .navbar-right .dropdown .dropdown-toggle:hover {
+    background: #234459; }
+  #wrapper .navbar .navbar-right .dropdown .dropdown-toggle.open a {
+    background: #234459; }
+  #wrapper .navbar .navbar-right .dropdown .dropdown-menu {
+    background: #234459;
+    border-radius: 0; }
+  #wrapper .navbar .navbar-collapse .side-nav {
+    height: 100%;
+    font-family: 'Arial' sans-serif; }
+
+.message-dropdown .message-preview a {
+  background: #234459; }
+  .message-dropdown .message-preview a:hover, .message-dropdown .message-preview a:active, .message-dropdown .message-preview a:visited, .message-dropdown .message-preview a:focus {
+    background: #234459; }
+  .message-dropdown .message-preview a .media .media-body .text-muted {
+    color: #CFCFCF; }
+
+.dropdown-menu li.divider {
+  border-bottom: 1px solid #1B394C; }
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+  background-color: #487490; }
+
+/*# sourceMappingURL=global.css.map */
